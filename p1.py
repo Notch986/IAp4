@@ -5,6 +5,7 @@ from sklearn.linear_model import LinearRegression   # Importa LinearRegression p
 from sklearn.impute import SimpleImputer           # Importa SimpleImputer para manejar valores faltantes
 import matplotlib.pyplot as plt       # Importa matplotlib para graficar
 
+
 # Carga datos desde un archivo Excel ('data1.xlsx')
 df = pd.read_excel('data1.xlsx')
 
